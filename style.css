@@ -186,11 +186,11 @@ menu .sub-menu p {
 /* NewsLetter */
 
 .section-3 {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .section-3 .news-letter {
@@ -300,12 +300,46 @@ footer p {
   padding: 0px 10px 0px 10px;
 }
 
-.like  img{
-    position: absolute;
-    left: 225px;
-    top: 10px;
+.like img {
+  position: absolute;
+  left: 225px;
+  top: 10px;
 }
 
 .special-items {
-    position: relative;
+  position: relative;
+}
+
+.product-title {
+  color: #444b4f;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-title h4 {
+    font-weight: lighter;
+}
+
+.product-title .span-product {
+    opacity: 0.4;
+}
+
+.product-title .product-title-menu button {
+    border: 1px solid #D8D8D8;
+    border-radius: 10px;
+    padding: 1px 5px;
+    text-align: center;
+}
+
+.product-title .product-title-menu button img {
+    margin-bottom: 2px;
+}
+
+.product-title .product-title-menu {
+    display: flex;
+}
+
+.product-title .product-title-menu p {
+    padding: 0px 10px;
 }
