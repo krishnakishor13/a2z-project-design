@@ -7,7 +7,7 @@
 }
 
 html {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 /* Navbar */
@@ -298,4 +298,14 @@ footer p {
   color: white;
   border: none;
   padding: 0px 10px 0px 10px;
+}
+
+.like  img{
+    position: absolute;
+    left: 225px;
+    top: 10px;
+}
+
+.special-items {
+    position: relative;
 }
