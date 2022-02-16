@@ -1,0 +1,301 @@
+/* Common */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+html {
+  background-color: whitesmoke;
+}
+
+/* Navbar */
+
+header {
+  width: 100%;
+  background-color: #222f42;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  top: 0;
+}
+
+header .logo {
+  width: 10%;
+  padding: 0px 100px;
+}
+
+header .center-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  padding: 0px 100px;
+}
+
+header .center-nav img {
+  width: 10%;
+}
+
+header .center-nav button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  font-weight: lighter;
+  padding: 0px 0px 0px 7px;
+}
+
+header .center-nav button input {
+  border: none;
+  font-size: 10px;
+  width: 50%;
+  padding: 0px 8px;
+}
+
+header .right-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+header .right-nav .number {
+  color: #ff6500;
+}
+
+header .right-nav img {
+  width: 6%;
+}
+
+/* Section-1 */
+
+menu {
+  background-color: #293b51;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+menu .category {
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+menu .category img {
+  width: 3%;
+  padding: 0px 10px;
+}
+
+menu .category p {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 88px;
+}
+
+menu .sub-menu {
+  display: flex;
+  width: 70%;
+}
+
+menu .sub-menu p {
+  padding: 0px 20px;
+  font-weight: lighter;
+}
+
+/* Recently Viewed */
+
+.section-1 {
+  background-color: #edf2f3;
+  width: 100%;
+}
+
+.section-1 .recently-viewed {
+  text-align: center;
+  color: #444b4f;
+  font-weight: lighter;
+  padding: 20px;
+}
+
+.bg-img img {
+  width: 100%;
+}
+
+.section-1 .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+}
+
+.section-1 .item .item-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1 .item .item-flex .item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-1 .item .item-flex .item-details .price {
+  color: orange;
+}
+
+/* Section 2 */
+
+.section-2 .special-title {
+  text-align: center;
+  color: #444b4f;
+  padding: 50px;
+  font-weight: 100;
+}
+
+.section-2 .discount {
+  color: red;
+}
+
+.section-2 .special {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-2 .special .special-des {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.section-2 .special .special-des button {
+  background-color: #59af0f;
+  color: white;
+  border: none;
+  padding: 0px 10px 0px 10px;
+}
+
+/* NewsLetter */
+
+.section-3 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-3 .news-letter {
+  background-color: #222f42;
+  width: 50%;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  padding: 50px;
+  left: 23%;
+  margin-top: 5%;
+}
+
+.section-3 .news-letter .input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-3 .news-letter input {
+  border-radius: 10px;
+  border: none;
+  padding: 0px 5px;
+}
+
+.section-3 #submit {
+  background-color: orange;
+  color: white;
+  padding: 0px 5px;
+  border: none;
+  border-radius: 10px;
+}
+
+.footerr-menu {
+  display: flex;
+  margin-top: 20%;
+  /* position: absolute; */
+  right: 70%;
+  color: #808080;
+  padding: 0px;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+
+.footer-logo p {
+  padding: 10px;
+}
+
+.footer-logo img {
+  padding: 0px 20px;
+}
+
+.footer-menu ul {
+  margin-top: 153px;
+  list-style-type: none;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-menu li {
+  font-weight: lighter;
+}
+
+footer {
+  border-top: 1px solid #ebebeb;
+  text-align: center;
+  margin: 50px 0px;
+  color: #808080;
+}
+
+footer p {
+  padding: 10px;
+}
+
+/* Products */
+
+.section-3 .special-title {
+  text-align: center;
+  color: #444b4f;
+  padding: 50px;
+  font-weight: 100;
+}
+
+.section-3 .discount {
+  color: red;
+}
+
+.section-3 .special {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.section-3 .special .special-des {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-3 .special .special-des button {
+  background-color: #59af0f;
+  color: white;
+  border: none;
+  padding: 0px 10px 0px 10px;
+}
